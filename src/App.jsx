@@ -7,10 +7,13 @@ import Login from "./pages/Login"
 import Register from "./pages/Register"
 import Home from "./pages/Home"
 import AddProperty from "./pages/AddProperty"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
+    <>
+    <Navbar/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/dashboard" element={<Dashboard />} />
@@ -20,6 +23,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
     </Routes>
+    </>
   )
 }
 
