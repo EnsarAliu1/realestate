@@ -3,6 +3,18 @@
     {
       "fullName": "test",
       "id": "B12SSKMHaEQ"
+    },
+    {
+      "fullName": "Test Testi",
+      "email": "test@gmail.com",
+      "password": "test12345",
+      "id": "bB2ITatlakU"
+    },
+    {
+      "fullName": "Filan Fisteku",
+      "email": "filan@gmail.com",
+      "password": "filan123",
+      "id": "qNVs7xhOX6U"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
